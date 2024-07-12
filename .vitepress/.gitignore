@@ -1,0 +1,9 @@
+.vscode
+dist
+cache
+temp
+node_modules
+pnpm-global
+.vite_opt_cache
+*.log
+*.tgz
