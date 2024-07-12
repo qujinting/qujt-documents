@@ -7,3 +7,5 @@ pnpm-global
 .vite_opt_cache
 *.log
 *.tgz
+.vitepress/cache
+.vitepress/dist
