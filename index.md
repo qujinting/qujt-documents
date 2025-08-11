@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: '学习文档'
-  text: '随笔记录学习过程'
+  text: '这本焚决就交给你啦'
   tagline:
   actions:
     - theme: brand
       text: 开发规范
       link: /docs/开发规范
     - theme: alt
-      text: 开发规范
-      link: /docs/开发规范
+      text: 常用指令
+      link: /docs/常用指令
 
 features:
   - title: 范皓为

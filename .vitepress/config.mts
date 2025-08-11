@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '我的文档',
+  title: '曲锦亭的文档',
   description: '个人学习文档',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/icon.png' }]],
@@ -15,11 +15,31 @@ export default defineConfig({
     sidebar: [
       {
         text: '其他',
-        items: [{ text: '开发规范', link: '/docs/开发规范' }],
+        items: [
+          { text: '岸基开发规范', link: '/docs/开发规范' },
+          { text: '常用指令', link: '/docs/常用指令' },
+        ],
+      },
+      {
+        text: 'Vue',
+        items: [
+          { text: 'Vue2', items: [{ text: '先占着路由', link: '' }] },
+          { text: 'Vue3', items: [{ text: '先占着路由', link: '' }] },
+        ],
+      },
+      {
+        text: 'React',
+        items: [{ text: '还没学呢', link: '' }],
+      },
+      {
+        text: 'Java',
+        items: [{ text: '还没学呢', link: '' }],
       },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/qujinting/qujt-documents' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/qujinting/qujt-documents' },
+    ],
 
     search: {
       provider: 'local',
