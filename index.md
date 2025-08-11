@@ -8,15 +8,15 @@ hero:
   tagline:
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /docs/markdown-examples
+      text: 开发规范
+      link: /docs/开发规范
     - theme: alt
-      text: API Examples
-      link: /docs/api-examples
+      text: 开发规范
+      link: /docs/开发规范
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 范皓为
+    details: 青山不改，绿水长流
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C
