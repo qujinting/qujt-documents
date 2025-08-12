@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/',
   title: '曲锦亭的文档',
   description: '个人学习文档',
   lang: 'zh-CN',
